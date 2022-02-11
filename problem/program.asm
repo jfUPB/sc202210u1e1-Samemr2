@@ -1,6 +1,6 @@
-// COLOCO AQUÍ TU NOMBRE COMPLETO
-// COLOCA AQUÍ TU ID
-// COLOCA AQUÍ TU CORREO ELECTRÓNICO
+// Samuel Morales Rodriguez
+// 000431580
+// samuel.morales@upb.edu.co
 (START)
     @START
     0;JMP
