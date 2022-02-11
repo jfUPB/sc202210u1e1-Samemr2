@@ -54,4 +54,19 @@
 	D=M 
 	@fill 
 	M=D
+(PAINT)
+    @fill
+	D=M
+    @indice_pixel
+	A=M 
+	M=D
+	@indice_pixel
+	D=M 
+	@16384
+	D=D-A
+	@kEYBOARD_INPUT
+	D;JLE
+	@indice_pixel 
+	M=M-1
+	@PAINT
     0;JMP
