@@ -23,4 +23,35 @@
 	M=D
 	@fill
 	M=M
+(kEYBOARD_INPUT) 
+    @24575
+	D=A 
+	@indice_pixel
+	M=D
+    //COMPROBACION DE TECLADO
+    @k
+	A=M 
+	D=M 
+	@fill 
+	M=-1
+	//COMPROBAMOS SI ES LA LETRA F 
+	@f 
+	D=D-M
+	@PAINT 
+	D;JEQ 
+	//RETORNAMOS AL VALOR DEL INPUT 
+    @f
+	D=D+M 
+	@fill 
+	M=0
+	//COMPROBAMOS SI ES LA LETRA C
+	@c 
+	D=D-M
+	@PAINT 
+	D;JEQ 
+	//SI NO ES NINGUNA DE LAS DOS
+	@24575
+	D=M 
+	@fill 
+	M=D
     0;JMP
